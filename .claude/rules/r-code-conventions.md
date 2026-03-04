@@ -34,12 +34,12 @@ paths:
 ## 4. Visual Identity
 
 ```r
-# --- Your institutional palette ---
-primary_blue  <- "#012169"
-primary_gold  <- "#f2a900"
-accent_gray   <- "#525252"
+# --- Nankai University palette ---
+primary_purple <- "#7e0c6e"
+primary_gold   <- "#f2a900"
+accent_gray    <- "#525252"
 positive_green <- "#15803d"
-negative_red  <- "#b91c1c"
+negative_red   <- "#b91c1c"
 ```
 
 ### Custom Theme

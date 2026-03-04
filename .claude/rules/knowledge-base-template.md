@@ -5,10 +5,10 @@ paths:
   - "scripts/**/*.R"
 ---
 
-# Course Knowledge Base: [YOUR COURSE NAME]
+# Research Knowledge Base: Financial Economics Research Project
 
 <!-- Fill in the tables below with YOUR domain-specific content.
-     Claude reads this before creating/modifying any lecture content. -->
+     Claude reads this before creating/modifying any research content. -->
 
 ## Notation Registry
 

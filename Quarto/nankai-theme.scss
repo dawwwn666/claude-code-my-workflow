@@ -3,15 +3,14 @@
 // ==============================================================================
 // INSTITUTIONAL COLORS
 // ==============================================================================
-// Customize these for your university/institution:
-//   1. Replace color values with your institution's brand colors
-//   2. Update variable names if desired (but keep the semantic mapping)
-//   3. The rest of the theme adapts automatically
+// Nankai University Purple & Gold
+//   Primary: Nankai Purple #7e0c6e (RGB 126,12,110)
+//   Secondary: Nankai Gold #f2a900 (RGB 242,169,0)
 
-$primary-blue: #012169;        // Primary institutional color (headings, accents)
-$primary-gold: #B9975B;        // Secondary color (emphasis, borders)
-$highlight-yellow: #F2A900;    // Highlight color (markers, alerts)
-$light-bg: #E8EDF5;           // Light background for title/section slides
+$primary-blue: #7e0c6e;        // Nankai purple (headings, accents)
+$primary-gold: #f2a900;        // Nankai gold (emphasis, borders)
+$highlight-yellow: #f2a900;    // Highlight color (markers, alerts)
+$light-bg: #f9f5ff;           // Light purple background for title/section slides
 
 // Semantic color mapping (don't change these names)
 $jet: #1a1a1a;
@@ -180,9 +179,9 @@ $selection-bg: $primary-gold !default;
 .alert { color: $primary-gold; }
 
 // Customize these class names for your institution:
-.emoryblue { color: $primary-blue; }
-.emorygold { color: $primary-gold; }
-.emoryyellow { color: $highlight-yellow; }
+.nankaipurple { color: $primary-blue; }
+.nankaigold { color: $primary-gold; }
+.nankaiyellow { color: $highlight-yellow; }
 
 // Semantic colors for diagrams and annotations
 .positive {

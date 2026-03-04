@@ -44,6 +44,14 @@ Review the specified file thoroughly and produce a detailed report of all issues
 - Citations pointing to the wrong paper
 - Verify that citation keys match the intended paper in the bibliography file
 
+### 6. CHINESE LANGUAGE (Primary)
+- Chinese punctuation: 。，、；：""''（）【】
+- Proper use of 的/地/得
+- Chinese-English mixed text spacing
+- Academic Chinese conventions
+- Common Chinese typos
+- Simplified vs Traditional consistency
+
 ## Report Format
 
 For each issue found, provide:

@@ -5,8 +5,8 @@
      Keep this file under ~150 lines — Claude loads it every session.
      See the guide at docs/workflow-guide.html for full documentation. -->
 
-**Project:** [YOUR PROJECT NAME]
-**Institution:** [YOUR INSTITUTION]
+**Project:** Financial Economics Research - Nankai University
+**Institution:** Nankai University (南开大学)
 **Branch:** main
 
 ---
@@ -24,17 +24,19 @@
 ## Folder Structure
 
 ```
-[YOUR-PROJECT]/
+nankai-research/
 ├── CLAUDE.MD                    # This file
 ├── .claude/                     # Rules, skills, agents, hooks
 ├── Bibliography_base.bib        # Centralized bibliography
 ├── Figures/                     # Figures and images
-├── Preambles/header.tex         # LaTeX headers
+├── Preambles/nankai-header.tex  # Nankai Beamer setup
 ├── Slides/                      # Beamer .tex files
 ├── Quarto/                      # RevealJS .qmd files + theme
 ├── docs/                        # GitHub Pages (auto-generated)
-├── scripts/                     # Utility scripts + R code
-├── quality_reports/             # Plans, session logs, merge reports
+├── scripts/                     # Utility scripts + Python/R code
+├── Papers/                      # Research paper LaTeX sources
+├── Thesis/                      # Thesis chapters
+├── quality_reports/             # Plans, specs, session logs, merge reports
 ├── explorations/                # Research sandbox (see rules)
 ├── templates/                   # Session log, quality report templates
 └── master_supporting_docs/      # Papers and existing slides
@@ -107,30 +109,27 @@ python scripts/quality_score.py Quarto/file.qmd
 
 | Environment       | Effect        | Use Case       |
 |-------------------|---------------|----------------|
-| `[your-env]`      | [Description] | [When to use]  |
-
-<!-- Example entries (delete and replace with yours):
-| `keybox` | Gold background box | Key points |
-| `highlightbox` | Gold left-accent box | Highlights |
+| `resultbox`       | Purple-bordered box | Empirical results |
+| `methodbox`       | Gold-bordered box | Methodology highlights |
 | `definitionbox[Title]` | Blue-bordered titled box | Formal definitions |
--->
+| `highlightbox`    | Light purple background | Key points |
 
 ## Quarto CSS Classes
 
 | Class              | Effect        | Use Case       |
 |--------------------|---------------|----------------|
-| `[.your-class]`    | [Description] | [When to use]  |
-
-<!-- Example entries (delete and replace with yours):
-| `.smaller` | 85% font | Dense content slides |
-| `.positive` | Green bold | Good annotations |
--->
+| `.smaller`         | 85% font size | Dense content slides |
+| `.positive`        | Green bold text | Positive results |
+| `.negative`        | Red bold text | Negative results |
+| `.resultbox`       | Purple left-accent box | Results |
+| `.methodbox`       | Gold left-accent box | Methods |
 
 ---
 
 ## Current Project State
 
-| Lecture | Beamer | Quarto | Key Content |
+| Project | Beamer | Quarto | Key Content |
 |---------|--------|--------|-------------|
-| 1: [Topic] | `Lecture01_Topic.tex` | `Lecture1_Topic.qmd` | [Brief description] |
-| 2: [Topic] | `Lecture02_Topic.tex` | -- | [Brief description] |
+| Thesis: [Your Topic] | `Thesis_Main.tex` | `Thesis_Presentation.qmd` | Main research |
+| Literature Review | `LitReview.tex` | `LitReview.qmd` | Systematic review |
+| Course Presentations | `Slides/` | `Quarto/` | Various topics |

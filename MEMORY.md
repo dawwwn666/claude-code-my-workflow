@@ -70,3 +70,7 @@ When a mistake is corrected, append a `[LEARN:category]` entry below.
 [LEARN:meta] Dogfooding principles must be enforced: plan-first, spec-then-plan, quality gates, session logs → we follow our own guide.
 
 [LEARN:meta] Template development work (building infrastructure, docs) doesn't create session logs in quality_reports/ → those are for user work (slides, analysis), not meta-work. Keeps template clean for users who fork.
+
+## Project Setup
+
+[LEARN:setup] Customized for Nankai University Financial Economics: Python (Pandas/Statsmodels) primary, Chinese academic writing primary, Beamer+Quarto presentations, NankaiBeamer.sty template with colors #7e0c6e (purple) and #f2a900 (gold).
